@@ -1,0 +1,19 @@
+HAPLOTYPE: "C"
+
+BASE_DIR: "/scratch/xf3/ht5438/Pgt_phylo/approach3_genom_blks/C"
+
+INPUT_BAM_DIR: "/scratch/xf3/ht5438/Pgt_phylo/approach3_genom_blks/C/sample_bam"
+
+UNALIGNED_DIR: "/scratch/xf3/ht5438/Pgt_phylo/approach3_genom_blks/C/unaligned"
+
+ALIGNED_DIR: "/scratch/xf3/ht5438/Pgt_phylo/approach3_genom_blks/C/mafft_aligned"
+
+FULL_ALN_DIR: "/scratch/xf3/ht5438/Pgt_phylo/approach3_genom_blks/C/full_aln"
+
+#ref_fai_path: "/g/data/xf3/ht5438/data/genome/Pgt/haplotype/Pgt_210/Pgt_210_B1_AssemblyScaffolds.fasta.fai"
+ref_fai_path: "/g/data/xf3/ht5438/data/genome/Pgt/haplotype/Pgt_Ug99/Pgt_Ug99_C1_AssemblyScaffolds.fasta.fai"
+
+
+extract_genom_blks_path: "/home/106/ht5438/Pgt_phylo/extract_genom_blks/extract_genome_blocks.py"
+genome_block_size: 50000
+genome_block_interval: 500000
